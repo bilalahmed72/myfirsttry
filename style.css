@@ -1,0 +1,679 @@
+/* CSS DOCUMENT */
+
+*{
+    margin: 0px; !important
+    padding: 0px; !important
+}
+
+#container{
+    width: 100%;
+    height: 2000px;
+    background-color: greenyellow;
+}
+
+                                                          /* Start of Social Media Links */
+
+.header-1{
+    width: 100%;
+    height: 55px;
+    background-color: #4169E1;
+}
+
+/* img{
+    width: 50px;
+    height: 50px;
+} */
+
+
+div.header-1 img.sm-logo{
+    width: 30px;
+    height: 30px;
+    margin: 12px 0px 1px 0px;
+    text-indent: 10px;
+    border-radius: 50%;
+}
+
+p[class="header-para"]{
+    color: white;
+    display: inline;
+    /* margin-left: 20px; */
+    margin-top: 0px;
+    font-size: 120%;
+    &emsp;
+}
+
+button{
+    background-color: whitesmoke;
+    font-size: 14px;
+    padding: 6px 6px;
+    /* float: right; */
+    border-radius: 0.5px;
+    border-color: green;
+}
+
+                                                    /* End Of Social Media Links */
+    
+                                                    /* Start of Second header And List */
+              
+
+#header-2{
+    width: 100%;                                          
+    height: 80px;
+    background-color: #FFF;
+    position: fixed;
+    z-index: 1000;
+    transition: 0.5s;
+    border-bottom: 2px solid #eee;
+    text-align: left;
+    /* top: 0; */
+}
+
+
+                                               
+img.saylani-logo{
+    width: 240px;
+    height: 75px;
+    position: absolute;
+    margin-left: 10%;
+}
+
+/* .header-2-main ul.list-1:hover{
+    display: block;
+    border: 3px solid #0f3cc4;
+
+} */
+
+.header-2-main .list-1 li{
+	display: inline-block;
+    margin-top: 3%;
+    margin-right: 3%;
+    color: black;
+    /* transition: 0.5s; */
+}
+
+.header-2-main .list-1 li:hover{
+    color: cornflowerblue;
+    border-radius: 0px;
+    border-width: 5px;
+    border-spacing: 7px;
+    border-color: darkgray;
+    border: 1px solid cyan;
+    background-color: darkgoldenrod;
+    /* display: block; */
+}
+
+.header-2-main ul li ul {
+	display: none;
+
+}
+.header-2-main ul li:hover ul{
+	display: block;
+	text-align: left;
+	position: absolute;
+	margin-top: 25px;
+	background-color: #fff;
+	margin-left: -18px;
+	padding: 15px;
+	width: 160px;
+
+}
+.header-2-main ul li:hover ul li{
+	text-align: left;
+	display: block;
+	padding: 7px;
+
+}
+.header-2-main .list-1{
+	text-align: right;
+}
+.header-2-main ul li ul li{
+	text-align: left;
+	display: block;
+
+
+}
+
+
+                                                /* END OF Second HEADER And Lists*/
+
+
+                                                 /* Start Of Slider */
+
+.slider-1{
+    width: 100%;
+    height: 480px;
+}
+
+
+img.slider-img{
+    width: 100%;
+    height: 480px;
+    position: absolute;
+}
+
+
+
+                                                /* END of SLIDER */
+
+                                                 /* START OF MARQUEE PARA */
+
+
+.marquee{
+    width: 100%;
+    height: 40px;
+    background-color: ;
+}
+
+.sub-marquee{
+    width: 90%;
+    height: 28px;
+    background-color: #4169E1;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1%;
+}
+
+p.marquee-para{
+    text-align: center;
+    color: white;
+    margin-top: 0px;
+}
+
+                                                    /* END OF MARQUEE PARA */
+
+                                                    /* START OF INTRODUCTION PARA  */
+
+
+#intro-1{
+    width: 100%;
+    height: 700px;
+    background-color: white;
+
+}
+
+div .intro-head{
+    text-align: center;
+    padding-top: 5%;
+
+}
+
+h1 .intro-css1{
+    color: #0f3cc4;
+}
+
+h1 .intro-css2 {
+    color: green;
+}
+
+.beforefavicon{
+    color: green;
+    display: inline;
+    padding-left: 46%;
+    padding-top: 5%;
+    /* padding-right: 30%; */
+}
+
+.favicon{
+    display: inline;
+    width: 50px;
+    height: 50px;
+    padding-top: 10px;
+}
+
+.afterfavicon{
+    color: green;
+    display: inline;
+}
+
+.intro-para{
+    color: grey;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 1%;
+    font-size: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+                                                        /* END ON INTRO PARA */
+
+                                                        /* START OF POPULATION */
+
+
+.population{
+    width: 100%;
+    height: 600px;
+    background-color: #284ec2;
+}
+
+.num-icon1{
+    width: 55px;
+    height: 55px;
+    padding-left: 7%;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+
+/* .box1, .box2, .box3, .box4{
+    display: inline-block;
+    width: 220px;
+    height: 250px;
+    background-color: aqua;
+    margin-top: 10%;
+    margin-bottom: 15%;
+    padding-left: 2%;
+    margin-left: 60px;
+} */
+
+.box1{
+    display: inline-block;
+    width: 220px;
+    height: 250px;
+    background-color: #284ec2;
+    margin-top: 10%;
+    margin-bottom: 15%;
+    padding-left: 50px;
+    margin-left: 7%;
+}
+
+.box2{
+    display: inline-block;
+    width: 220px;
+    height: 250px;
+    background-color: #284ec2;
+    margin-top: 10%;
+    margin-bottom: 15%;
+    padding-left: 50px;
+    margin-left: 6px;
+}
+
+.box3{
+    display: inline-block;
+    width: 240px;
+    height: 25  0px;
+    background-color: #284ec2;
+    margin-top: 9%;
+    margin-bottom: 15%;
+    padding-left: 2%;
+    margin-left: 6px;
+    /* position: absolute; */
+}
+
+.box4{
+    display: inline-block;
+    width: 240px;
+    height: 250px;
+    background-color: #284ec2;
+    margin-top: 10%;
+    margin-bottom: 15%;
+    padding-left: 2%;
+    margin-left: 6px;
+    position: absolute;
+}
+
+.box-heading1, .box-heading2, .box-heading3, .box-heading4{
+    font-size: 275%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #FFFFF0;
+
+}
+
+/* rgb(224, 221, 221) */
+
+.box-heading2{
+    margin-left: 15px;
+}
+
+.box-heading11, .box-heading22, .box-heading33, .box-heading44{
+    font-size: 100%;
+    color: white;
+    padding: 6px;
+}
+
+.span-box{
+    color: rgb(12, 201, 12);
+}
+
+
+
+                                                            /* END OF POPULATION */
+                                                            
+                                                            /* START OF WHAT ARE WE DOING */
+
+
+.sadqah{
+    width: 100%;
+    height: 830px;
+    background-color: whitesmoke;
+}                                                           
+
+.main-box{
+    width: 88%;
+    margin-left: 2.5%;
+    margin-right: 8%;
+    height: 600px;
+    background-color: whitesmoke;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.wwad-box{
+    width: 360px;
+    height: 200px;
+    background-color: white;
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+/* 
+    -moz-box-shadow: 5px 5px 5px #777777;
+    -webkit-box-shadow: 5px 5px 5px #777777;
+    box-shadow: 5px 5px 5px #777777; */
+
+    /* -moz-box-shadow: 5px 5px 5px 5px #777777;
+    -webkit-box-shadow: 5px 5px 5px 5px #777777;
+    box-shadow: 5px 5px 5px 5px #777777; */
+
+    -moz-box-shadow: 0 0 10px #777777;
+    -webkit-box-shadow: 0 0 10px #777777;
+    box-shadow: 0 0 10px #777777;
+
+    /* -moz-box-shadow: inset 0 0 10px #777777;
+    -webkit-box-shadow: inset 0 0 10px #777777;
+    box-shadow: inset 0 0 10px #777777; */
+
+}
+
+div .justicon{
+    width: 70px;
+    height: 70px;
+    padding-left: 35%;
+    padding-top: 20px;
+}
+
+div .iconheader{
+    color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: 200%;
+    padding: 20px;
+    text-align: center;
+    /* text-shadow: 2px 2px 7px #111111; */
+}
+
+div .iconheader2, .iconheader3, .iconheader5, .iconheader6{
+    padding-left: 20px;
+    margin-left: 20px;
+
+}
+
+                                                            /* END OF WHAT WE ARE DOING */
+
+                                                            /* START OF MISSION AND UPCOMING PROJECT */
+
+.main-miss{
+    width: 100%;
+    height: 500px;
+    background-color: darkorchid;
+}
+
+.sub-miss1{
+    width: 62%;
+    height: 500px;
+    background-color: white;
+    display: inline-block;
+}
+
+.sub-miss2{
+    width: 38%;
+    height: 500px;
+    background-color: white;
+    display: inline-block;
+    float: right;
+}
+
+.miss-header{
+    color: blue;
+    font-size: 200%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: inherit;
+    font-variant: inherit;
+    margin-top: 60px;
+    margin-left: 40px;
+}
+
+.projects{
+    width: 320px;
+    height: 80px;
+    background-color: whitesmoke;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.pro-header{
+    color: blue;
+    font-size: 70%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding-left: 5%;
+    padding-top: 15px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.secdiv{
+    float: right;
+    display: inline;
+    background-color: white;
+    padding-top: 15px;
+    margin-top: 40px;
+    height: 250px;
+}
+
+div.secdiv p.marquee-para{
+    font-size: 120%; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: gray;   
+}
+
+
+                                                                    /* END OF PROJECS */
+
+                                                                    /* START OF IMG GALLERY */
+
+.img-gallery{
+    width: 100%;
+    height: 400px;
+    background-color: white;
+}
+
+div .img-heading{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 .imgspan-1{
+    color: blue;
+}
+
+h1 .imgspan-2{
+    color: green;
+}
+
+.img-css{
+    width: 265px;
+    height: 175px;
+    display: inline-block;
+    padding-top: 30px;
+}
+
+div.img-gallery .imgcss1{
+    padding-left: 10%;    
+}
+
+
+
+/* div .imgcss2{
+    width: 200px;
+    height: 150px;
+    display: inline-block;
+    padding-top: 30px;
+}
+
+div .imgcss3{
+    width: 200px;
+    height: 150px;
+    display: inline-block;
+    padding-top: 30px;
+}
+
+div .imgcss4{
+    width: 200px;
+    height: 150px;
+    display: inline-block;
+    padding-top: 30px;
+}
+
+div .imgcss5{
+    width: 200px;
+    height: 150px;
+    display: inline-block;
+    padding-top: 30px;
+} */
+
+/* .img-css1, .img-css2, .img-css3, .img-css4, .img-css5 {
+    width: 200px;
+    height: 150px;
+    display: inline-block;
+    padding-top: 30px;
+}   */
+
+
+/* div .imgcss1{
+    padding-left: 50px;
+    margin-left: 50px;
+    position: relative;    
+
+} */
+
+                                                                /* END OF IMG GALLERY */
+
+                                                                /* START OF LINKS AND ADDRESS  */
+
+.upc-links{
+    width: 1349px;
+    height: 500px;
+    background-color: rgb(41, 39, 39);
+}       
+
+.link-heading1{
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 25%;
+}
+
+.link-heading2{
+    color: white;
+    /* text-align: center; */
+    /* margin-top: 40px; */
+    margin-left: 40%;
+}
+
+.upc-sublink1, .upc-sublink2{
+    /* width: 445px; */
+    height: 500px;
+    display: inline-block;
+    /* margin: 0px;
+    padding: 0px; */
+}
+
+.upc-sublink1{
+    width: 70%;
+    background-color: rgb(41, 39, 39);
+    float: left;
+}
+
+.upc-sublink2{
+    background-color: rgb(41, 39, 39);
+    width: 30%;
+    float: right;
+}
+
+div.upc-sublink1 p{
+    padding-left: 10%;
+    /* margin-left: 50px; */
+    font-size: 20px;
+    color: gray;
+}
+
+.sec-heading{
+    margin-left: 20px;
+    color: white;
+    margin-top: 40px;
+}
+
+div.upc-sublink2 img.sm-logo{
+    width: 30px;
+    height: 30px;
+    margin: 12px 0px 1px 0px;
+    text-indent: 10px;
+    padding: auto 0px auto 5px;
+    border-radius: 50%;
+    background-color: blue;
+}
+
+
+
+                                                                    /* END OF LINKS */
+
+                                                                    /* START OF COPYRIGHTS */
+
+
+
+
+
+.footer-2{
+    width: 100%;
+    height: 60px;   
+    background-color: rgb(56, 56, 247);
+}
+
+div .copy-para{
+    color: white;
+    padding-left: 7%;
+    padding-top: 25px;
+}
+
+
+
+
+
+
+                                                    /* THE ENDD */
+
+
+  RESPONSIVE____________________________________
+
+@media(min-width:1200px){
+    body{
+        width: 100%;
+        background color: grey;
+    }
+}
+
+@media screen and(max-width:1024px) Laptops _____________________
+
+@media screen and(max-width:768px)ipads_____________________________
+
+@media screen and(max-width:480px) Ipads
+
+
+
+
+ 
+                                                    
